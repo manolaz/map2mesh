@@ -7,8 +7,8 @@ Bordeaux Université
 Master Informatique 2019
 
 Team members:
-+Tran Quang Tung	(quangtung0276@yahoo.com)
-+Nguyen Quoc Khanh (qkhanh2006@gmail.com)
-+Nguyen Vu Anh Trung (kivanolai@gmail.com)
+* Tran Quang Tung	(quangtung0276@yahoo.com)
+* Nguyen Quoc Khanh (qkhanh2006@gmail.com)
+* Nguyen Vu Anh Trung (kivanolai@gmail.com)
 
 
