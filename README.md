@@ -16,4 +16,4 @@ WhiteboxTools is an advanced geospatial data analysis platform created by Prof. 
 ###Example
 Binary of whiteBox found in /whitebox/linux64/
 cd /whitebox/linux64/
-run analysis of data source ./whitebox_tools -r=lidar_info --cd="./data" -i=points.las --vlr --geokeys
+run analysis of data source ./whitebox_tools -r=lidar_info --cd="../data" -i=points.las --vlr --geokeys
