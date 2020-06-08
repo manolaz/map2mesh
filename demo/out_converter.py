@@ -7,7 +7,7 @@ import math
 
 files = glob.glob(os.getcwd() + "/data/*.las")
 
-f_name = "demo/points-xyz-1.out"
+f_name = "demo/points-1.out"
 
 def scale(X, x_min, x_max):
     nom = (X-X.min(axis=0))*(x_max-x_min)
