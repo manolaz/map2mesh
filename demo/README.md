@@ -1,9 +1,8 @@
-# Example LAS to RASTER conversion
-run analysis of data source
-Transpose the LAS dataset into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
+# LAS to RASTER conversion
 
-This example will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
+This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
+It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
 
+## Execute example
 
-## execute examples
 python3 out_converter.py
