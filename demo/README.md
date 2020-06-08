@@ -1,8 +1,5 @@
-# Action
-## Example
-run analysis of data source in
+# Example LAS to RASTER conversion
 
-### move to binary loacation
-cd linux64
-### exceute example
-./whitebox_tools -r=lidar_info --cd="../../data" -i=points.las --vlr --geokeys
+run analysis of data source
+## execute examples
+
