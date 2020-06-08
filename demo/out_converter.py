@@ -46,26 +46,3 @@ def convert(fil):
 f = files[0]
 
 convert(f)
-
-
-
-
-'''
-for f in files:
-    lidar = laspy.file.File(f, mode="r")
-    _id = lidar.header.data_format_id
-    print(lidar.z.shape)
-    data = np.vstack((lidar.x, lidar.y, lidar.z)).transpose()  
-
-    with open(f_name, 'a') as fil:    
-        for i in range(0, 3):
-            l1 = str(global_idx) + " "
-            l2 = str(data[i][0]) + " "
-            l3 = str(data[i][1]) + " "
-            l4 = str(data[i][2])
-
-            fil.write(l1 + l2 + l3 + l4 + " " + l2 + l3 + l4 + "\n")
-            global_idx += 1
-#    f = open(f_name, 'wb')
-    
-'''
