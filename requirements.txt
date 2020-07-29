@@ -8,3 +8,4 @@ pdal
 python-pdal
 gdal
 trimesh
+numpy-stl
