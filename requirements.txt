@@ -1,4 +1,10 @@
 laspy
-cdedtools
-stltools
-PDAL
+# cdedtools
+# cded-tools
+# stltools
+# stl-tools
+# PDAL
+pdal
+python-pdal
+gdal
+trimesh

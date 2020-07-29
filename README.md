@@ -20,12 +20,13 @@ It will take the LAS Points in DATA respository and scale it and to make an XYZ 
 python3 out_converter.py
 ```
 
-## PDAL setup with ANACONDA
+## PDAL + Trimesh setup with ANACONDA
 
 ```bash
 conda create -n geo
 conda activate geo
 conda install -c conda-forge pdal python-pdal gdal
+conda install -c conda-forge trimesh
 ```
 
 https://anaconda.org/conda-forge/pdal
