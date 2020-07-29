@@ -12,6 +12,8 @@ python3 out_converter.py
 ## PDAL setup with ANACONDA
 
 ```bash
+conda create -n geo
+conda activate geo
 conda install -c conda-forge pdal python-pdal gdal
 ```
 
