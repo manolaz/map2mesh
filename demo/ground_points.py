@@ -1,6 +1,6 @@
 import numpy as np
 from laspy.file import File
-inFile = File("./data/points.las", mode = "r")
+inFile = File("../data/points.las", mode = "r")
 
 # Grab all of the points from the file.
 point_records = inFile.points
@@ -70,7 +70,7 @@ print("%i points out of %i were ground points." % (len(ground_points),
 
 print("Writing output files...")
 
-outFile2 = File("./data/ground_points.las", mode = "w",
+outFile2 = File("../data/las/ground_points.las", mode = "w",
                 header = inFile.header)
 outFile2.points = ground_points
 outFile2.close()
