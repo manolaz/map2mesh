@@ -5,9 +5,11 @@ import numpy as np
 import math
 
 
+
+
 files = glob.glob(os.getcwd() + "/data/*.las")
 
-f_name = "data/points-1.out"
+f_name = "data/out/p1.mesh"
 
 def scale(X, x_min, x_max):
     nom = (X-X.min(axis=0))*(x_max-x_min)
@@ -17,7 +19,7 @@ def scale(X, x_min, x_max):
     return x_min + nom/denom
 
 def convert(fil):
-    lidar = laspy.file.File(f, mode="r")
+    lidar = laspy.file.File(fil, mode="r")
     batch_size = 1000000
     idx = 1
         
@@ -43,6 +45,7 @@ def convert(fil):
             last += batch_size 
             fil.writelines(lines)
             batch_num += 1
-f = files[0]
 
-convert(f)
+# f = files[0]
+
+convert(files)
