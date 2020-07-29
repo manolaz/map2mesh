@@ -4,8 +4,10 @@ This example run analysis of the LAS dataset, to transpose data source into scal
 It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
 
 ## Execute example
-
 python3 out_converter.py
+
+## PDAL setup with ANACONDA
+conda install -c conda-forge pdal python-pdal gdal
 
 ## PYTHON Package used LASPY
 https://pythonhosted.org/laspy/laspy_tools.html
