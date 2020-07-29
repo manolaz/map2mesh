@@ -9,7 +9,7 @@ Team members:
 - Tran Quang Tung (quangtung0276@yahoo.com)
 - Nguyen Quoc Khanh (qkhanh2006@gmail.com)
 
-# Components:# LAS to RASTER conversion
+## LAS to RASTER conversion
 
 This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
 It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
@@ -20,16 +20,19 @@ It will take the LAS Points in DATA respository and scale it and to make an XYZ 
 python3 out_converter.py
 ```
 
+## Install ANACONDA or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
 ## Libraries setup with ANACONDA
 
 PDAL + Trimesh
 
 ```bash
-conda create -n geo
+conda create -n geo python=3.7
 conda activate geo
-conda install -c conda-forge pdal python-pdal gdal
-conda install -c conda-forge trimesh4
+pip install rasterio
 pip install numpy-stl
+conda install -c conda-forge pdal python-pdal gdal
+conda install -c conda-forge trimesh
 ```
 
 - ### [PDAL](https://anaconda.org/conda-forge/pdal)
