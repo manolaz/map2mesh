@@ -10,3 +10,4 @@ gdal
 trimesh
 numpy-stl
 rasterio
+open3d

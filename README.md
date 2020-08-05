@@ -29,7 +29,7 @@ PDAL + Trimesh
 ```bash
 conda create -n geo python=3.7
 conda activate geo
-pip install rasterio
+conda install rasterio
 pip install numpy-stl
 conda install -c conda-forge pdal python-pdal gdal
 conda install -c conda-forge trimesh
