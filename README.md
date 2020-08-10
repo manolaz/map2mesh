@@ -24,17 +24,21 @@ python3 out_converter.py
 
 ## Libraries setup with ANACONDA
 
-PDAL + Trimesh
+GDAL for raster data
+PDAL for points cloud data
+Trimesh for mesh data
 
 ```bash
 conda create -n geo python=3.7
 conda activate geo
 conda install rasterio
 pip install numpy-stl
-conda install -c conda-forge pdal python-pdal gdal
+pip install pylab-sdk
+conda install -c conda-forge gdal
+conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 ```
-
 - ### [PDAL](https://anaconda.org/conda-forge/pdal)
 - ### [LASPY](https://pythonhosted.org/laspy/laspy_tools.html)
+- ### [GDAL](https://anaconda.org/conda-forge/gdal)
 

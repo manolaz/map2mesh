@@ -11,3 +11,4 @@ trimesh
 numpy-stl
 rasterio
 open3d
+pylab-sdk
