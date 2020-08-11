@@ -4,8 +4,8 @@ laspy
 # stltools
 # stl-tools
 # PDAL
-pdal
-python-pdal
+# pdal
+# python-pdal
 gdal
 trimesh
 numpy-stl
