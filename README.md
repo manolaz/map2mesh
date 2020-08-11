@@ -1,10 +1,13 @@
-# Elevation map to 3D sample object 
+# Elevation map to 3D sample object
+
 ## Project :3D printed landscapes
+
 Date: May 4, 2020
-Bordeaux Université	 
+Bordeaux Université
 Master Informatique 2019
 
 Team members:
+
 - Nguyen Vu Anh Trung (kivanolai@gmail.com)
 - Tran Quang Tung (quangtung0276@yahoo.com)
 - Nguyen Quoc Khanh (qkhanh2006@gmail.com)
@@ -24,9 +27,9 @@ python3 out_converter.py
 
 ## Libraries setup with ANACONDA
 
-GDAL for raster data
-PDAL for points cloud data
-Trimesh for mesh data
+- GDAL for raster data
+- PDAL for points cloud data
+- Trimesh for mesh data
 
 ```bash
 conda create -n geo python=3.7
@@ -39,7 +42,9 @@ conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 conda install -c conda-forge laspy
 ```
-- ### [PDAL](https://anaconda.org/conda-forge/pdal)
-- ### [LASPY](https://github.com/laspy/laspy)
-- ### [GDAL](https://anaconda.org/conda-forge/gdal)
 
+- ### [PDAL](https://anaconda.org/conda-forge/pdal)
+
+- ### [LASPY](https://github.com/laspy/laspy)
+
+- ### [GDAL](https://anaconda.org/conda-forge/gdal)
