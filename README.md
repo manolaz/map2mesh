@@ -37,8 +37,9 @@ pip install pylab-sdk
 conda install -c conda-forge gdal
 conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
+conda install -c conda-forge laspy
 ```
 - ### [PDAL](https://anaconda.org/conda-forge/pdal)
-- ### [LASPY](https://pythonhosted.org/laspy/laspy_tools.html)
+- ### [LASPY](https://github.com/laspy/laspy)
 - ### [GDAL](https://anaconda.org/conda-forge/gdal)
 
