@@ -41,6 +41,7 @@ conda install -c conda-forge gdal
 conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 conda install -c conda-forge laspy
+pip install open3d
 ```
 
 - ### [PDAL](https://anaconda.org/conda-forge/pdal)
