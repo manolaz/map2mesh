@@ -1,11 +1,6 @@
 laspy
-# cdedtools
-# cded-tools
-# stltools
-# stl-tools
-# PDAL
-pdal
-python-pdal
+numpy-stl
+whitebox
 gdal
 trimesh
 numpy-stl

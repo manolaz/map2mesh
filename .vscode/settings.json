@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "E:\\anaconda3\\envs\\wb\\python.exe"
+=======
+    "python.pythonPath": "/home/tristan/anaconda3/envs/geo/bin/python"
+>>>>>>> 2d438d88f6e870f8ac1b1f860eb4caf8bbe820b4
 }
