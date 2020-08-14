@@ -28,7 +28,7 @@ python3 out_converter.py
 
 ## Install ANACONDA or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
-## Libraries setup with ANACONDA
+## Environment setup Python v3.6 with ANACONDA
 
 - GDAL for raster data
 - PDAL for points cloud data
@@ -43,9 +43,9 @@ conda install -c conda-forge gdal
 conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 conda install -c conda-forge laspy
+conda install -c open3d-admin open3d
 pip install numpy-stl
 pip install pylab-sdk
-pip install open3d
 ```
 
 ## Using libraries:

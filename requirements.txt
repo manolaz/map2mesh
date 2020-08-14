@@ -3,5 +3,4 @@ numpy-stl
 whitebox
 trimesh
 numpy-stl
-open3d
 pylab-sdk
