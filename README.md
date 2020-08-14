@@ -39,12 +39,12 @@ conda create --name wb python=3.6
 conda activate wb
 conda install -c conda-forge whitebox_tools
 conda install rasterio
-pip install numpy-stl
-pip install pylab-sdk
 conda install -c conda-forge gdal
 conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 conda install -c conda-forge laspy
+pip install numpy-stl
+pip install pylab-sdk
 pip install open3d
 ```
 

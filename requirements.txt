@@ -1,9 +1,7 @@
 laspy
 numpy-stl
 whitebox
-gdal
 trimesh
 numpy-stl
-rasterio
 open3d
 pylab-sdk
