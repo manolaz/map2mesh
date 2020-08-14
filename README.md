@@ -4,11 +4,6 @@ Date: May 4, 2020
 Bordeaux Université	 
 Master Informatique 2019
 
-Team members:
-- Nguyen Vu Anh Trung (kivanolai@gmail.com)
-- Tran Quang Tung (quangtung0276@yahoo.com)
-- Nguyen Quoc Khanh (qkhanh2006@gmail.com)
-
 ## LAS to RASTER conversion
 
 This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
@@ -29,8 +24,9 @@ PDAL for points cloud data
 Trimesh for mesh data
 
 ```bash
-conda create -n geo python=3.7
-conda activate geo
+conda create --name wb python=3.6
+conda activate wb
+conda install -c conda-forge whitebox_tools
 conda install rasterio
 pip install numpy-stl
 pip install pylab-sdk
@@ -38,7 +34,17 @@ conda install -c conda-forge gdal
 conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 ```
+
+## Using libraries
+
+- ### [WhiteboxTools] (https://jblindsay.github.io/ghrg/WhiteboxTools/)
 - ### [PDAL](https://anaconda.org/conda-forge/pdal)
 - ### [LASPY](https://pythonhosted.org/laspy/laspy_tools.html)
 - ### [GDAL](https://anaconda.org/conda-forge/gdal)
 
+
+## Contacts:
+Team members:
+- Nguyen Vu Anh Trung (kivanolai@gmail.com)
+- Tran Quang Tung (quangtung0276@yahoo.com)
+- Nguyen Quoc Khanh (qkhanh2006@gmail.com)
