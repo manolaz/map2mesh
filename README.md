@@ -21,8 +21,7 @@ conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 conda install -c conda-forge laspy
 conda install -c open3d-admin open3d
-pip install numpy-stl
-pip install pylab-sdk
+pip install -r requirements.txt
 ```
 
 ## Using libraries:
