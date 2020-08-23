@@ -1,6 +1,6 @@
-# Elevation map to 3D sample object
+# Project :3D printable landscapes
 
-## Project :3D printed landscapes
+## Geographic Elevation map transformation to 3D sample object
 
 Date: May 4, 2020
 Bordeaux Université
@@ -24,20 +24,21 @@ conda install Pillow
 pip install -r requirements.txt
 ```
 
-## Using libraries:
+## Using libraries
 
 - [GDAL](https://anaconda.org/conda-forge/gdal) for raster data
 - [PDAL](https://anaconda.org/conda-forge/pdal) for points cloud data
 - [LASPY](https://github.com/laspy/laspy)
 - Trimesh for mesh data
-- ### [WhiteboxTools] (https://jblindsay.github.io/ghrg/WhiteboxTools/)
+- [WhiteboxTools](https://jblindsay.github.io/ghrg/WhiteboxTools/) for GIS DEM transformations
 
 ## LAS to RASTER conversion
+
 This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
 It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
 
-## Contacts:
-Team members:
+## Contacts team members
+
 - Nguyen Vu Anh Trung (kivanolai@gmail.com)
 - Tran Quang Tung (quangtung0276@yahoo.com)
 - Nguyen Quoc Khanh (qkhanh2006@gmail.com)
