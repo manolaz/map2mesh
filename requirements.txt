@@ -4,3 +4,5 @@ whitebox
 trimesh
 numpy-stl
 pylab-sdk
+earthengine-api
+# Pillow

@@ -10,7 +10,6 @@ Master Informatique 2019
 
 ## Environment setup Python v3.6 with ANACONDA
 
-
 ```bash
 conda create --name wb python=3.6
 conda activate wb
@@ -21,8 +20,8 @@ conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
 conda install -c conda-forge laspy
 conda install -c open3d-admin open3d
-pip install numpy-stl
-pip install pylab-sdk
+conda install Pillow
+pip install -r requirements.txt
 ```
 
 ## Using libraries:
