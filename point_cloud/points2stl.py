@@ -1,6 +1,10 @@
 import numpy as np
 import open3d as o3d
 
+import click as ck
+
+filename = ck.command()
+
 #create paths and load data
 input_path="your_path_to_file/"
 output_path="your_path_to_output_folder/"
