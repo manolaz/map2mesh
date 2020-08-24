@@ -23,13 +23,14 @@ conda install -c conda-forge laspy
 conda install -c open3d-admin open3d
 conda install -c conda-forge meshio
 pip install git+https://github.com/rougier/matplotlib-3d
+pip install PyOpenGL PyOpenGL_accelerate
 conda install Pillow
 pip install -r requirements.txt
 ```
 
 ## Using libraries
 - [Experimental 3d axis for matplotlib](https://github.com/rougier/matplotlib-3d)
-- [Python & OpenGL for Scientific Visualization](https://github.com/rougier/python-opengl)
+- [Python & OpenGL for Scientific Visualization](https://github.com/rougier/python-opengl), [PyOpenGL](http://pyopengl.sourceforge.net/)
 - [MESHIO](https://github.com/nschloe/meshio), Trimesh : for meshed 3D data
 - [GDAL](https://anaconda.org/conda-forge/gdal) for raster data
 - [PDAL](https://anaconda.org/conda-forge/pdal) for points cloud data
