@@ -16,7 +16,7 @@ wbt.set_working_dir(os.path.dirname(os.path.abspath(__file__)) + "/data/")
 # (IDW) scheme.
 print("Interpolating DEM...")
 wbt.lidar_idw_interpolation(
-i="StElisAk.las",
+i="wb_test1.las",
 output="raw_dem.tif",
 parameter="elevation",
 returns="last",
@@ -48,11 +48,11 @@ output="dem_hydro_enforced.tif"
 
 # Lastly, perform the flow accumulation operation using the
 # D-infinity flow algorithm.
-print("Performing flow accumulation...")
-wbt.d_inf_flow_accumulation(
-dem="dem_hydro_enforced.tif",
-output="flow_accum.tif",
-log=True
-)
+# print("Performing flow accumulation...")
+# wbt.d_inf_flow_accumulation(
+# dem="dem_hydro_enforced.tif",
+# output="flow_accum.tif",
+# log=True
+# )
 
 print("Complete!")
