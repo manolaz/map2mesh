@@ -27,10 +27,11 @@ pip install -r requirements.txt
 ```
 
 ## Using libraries
+- [Python & OpenGL for Scientific Visualization](https://github.com/rougier/python-opengl)
 - [MESHIO](https://github.com/nschloe/meshio), Trimesh : for meshed 3D data
 - [GDAL](https://anaconda.org/conda-forge/gdal) for raster data
 - [PDAL](https://anaconda.org/conda-forge/pdal) for points cloud data
-- [LASPY](https://github.com/laspy/laspy)
+- [LASPY](https://github.com/laspy/laspy): for LAS, LAZ files
 - [WhiteboxTools](https://jblindsay.github.io/ghrg/WhiteboxTools/) for GIS DEM transformations
 
 ## Working file formats
