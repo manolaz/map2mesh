@@ -38,9 +38,8 @@ pip install -r requirements.txt
  * .laz (Compressed LAS): [CloudCompare](https://www.cloudcompare.org/)
  * .obj (Wavefront OBJ), .ply (Stanford Triangle Format): [MeshLab](http://www.meshlab.net/)
 
-## Based the works ofthe project DEM to 3D
-
-DEM to 3D
+## Based the works of Dr.Richard Barnes
+on the project DEM to 3D
 https://github.com/r-barnes/DEMto3D
 
 ## Contacts team members

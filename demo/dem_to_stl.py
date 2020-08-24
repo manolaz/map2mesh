@@ -6,7 +6,7 @@ a variable number of facets.
 """
 
 from cdedtools import demparser
-from ..stl_tool  import stlgenerator
+from stltools  import stlgenerator
 
 import argparse
 
