@@ -34,9 +34,12 @@ pip install -r requirements.txt
 - [WhiteboxTools](https://jblindsay.github.io/ghrg/WhiteboxTools/) for GIS DEM transformations
 
 ## Working file formats:
- * .tif (GeoTIFF): [QGIS](http://www.qgis.org/)
- * .laz (Compressed LAS): [CloudCompare](https://www.cloudcompare.org/)
- * .obj (Wavefront OBJ), .ply (Stanford Triangle Format): [MeshLab](http://www.meshlab.net/)
+ * .tif [GeoTIFF](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff): 
+ open with the IDE Quantum GIS [QGIS](http://www.qgis.org/)
+ * .laz (Compressed LAS):
+ open with the IDE [CloudCompare](https://www.cloudcompare.org/)
+ * .obj (Wavefront OBJ), .ply (Stanford Triangle Format):
+ open with the IDE [MeshLab](http://www.meshlab.net/)
 
 ## Based the works of Dr.Richard Barnes
 on the project DEM to 3D
