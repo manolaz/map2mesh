@@ -1,11 +1,8 @@
-# Project: 3D printable landscapes
+# Project: 3D printable Geographic Elevation map
 
-## Geographic Elevation map transformation to 3D sample object
+## DEM to Mesh conversion : Landscapes transformation to 3D sample object
 
-### LAS to RASTER conversion
-
-This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
-It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
+We have to create a 3D image of terrain from an array of 2D elevation values.The goal is to take an elevation map as input (meaning a grid with elevation data, as the usage of ones). We will generate a file that is printable by 3D printer. The output could be STL or an OBJ file, these file formats are used for 3D printing.
 
 ### Environment setup
 
