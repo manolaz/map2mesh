@@ -7,9 +7,9 @@
 This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
 It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
 
-### Environment setup Python v3.6 with ANACONDA I
+### Environment setup
 
-### nstall ANACONDA or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+Python v3.6 with [ANACONDA](https://docs.conda.io/en/latest/miniconda.html)
 
 ```bash
 conda create --name wb python=3.6
