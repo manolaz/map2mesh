@@ -4,9 +4,6 @@ import glob
 import numpy as np
 import math
 
-
-
-
 files = glob.glob(os.getcwd() + "/data/*.las")
 
 f_name = "data/out/p1.mesh"

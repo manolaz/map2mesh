@@ -2,9 +2,10 @@
 
 ## Geographic Elevation map transformation to 3D sample object
 
-Date: May 4, 2020
-Bordeaux Université
-Master Informatique 2019
+## LAS to RASTER conversion
+
+This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
+It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
 
 ## Install ANACONDA or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
@@ -32,12 +33,21 @@ pip install -r requirements.txt
 - Trimesh for mesh data
 - [WhiteboxTools](https://jblindsay.github.io/ghrg/WhiteboxTools/) for GIS DEM transformations
 
-## LAS to RASTER conversion
+## Working file formats:
+ * .tif (GeoTIFF): [QGIS](http://www.qgis.org/)
+ * .laz (Compressed LAS): [CloudCompare](https://www.cloudcompare.org/)
+ * .obj (Wavefront OBJ), .ply (Stanford Triangle Format): [MeshLab](http://www.meshlab.net/)
 
-This example run analysis of the LAS dataset, to transpose data source into scaled Raster map of readeable 3 axis X + Y + Z coordinations.
-It will take the LAS Points in DATA respository and scale it and to make an XYZ out file export in DATA.
+## Based the works ofthe project DEM to 3D
+
+DEM to 3D
+https://github.com/r-barnes/DEMto3D
 
 ## Contacts team members
+
+Date: May 4, 2020
+Bordeaux Université
+Master Informatique 2019
 
 - Nguyen Vu Anh Trung (kivanolai@gmail.com)
 - Tran Quang Tung (quangtung0276@yahoo.com)
