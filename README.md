@@ -20,6 +20,8 @@ conda install -c conda-forge laspy
 conda install -c open3d-admin open3d
 conda install -c conda-forge meshio
 pip install git+https://github.com/rougier/matplotlib-3d
+pip install PySide2
+pip install PyQt5
 pip install PyOpenGL PyOpenGL_accelerate
 conda install Pillow
 pip install -r requirements.txt
@@ -41,7 +43,7 @@ pip install -r requirements.txt
  - .laz (Compressed LAS) , .las (LAS):
  open with the IDE [CloudCompare](https://www.cloudcompare.org/)
  - .obj (Wavefront OBJ), .ply (Stanford Triangle Format):
- open with the IDE [MeshLab](http://www.meshlab.net/)
+ open with the IDE [GMSH](http://gmsh.info/), [MeshLab](http://www.meshlab.net/)
 
 ### Based the works of Dr.Richard Barnes
 
