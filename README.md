@@ -51,7 +51,8 @@ on the project [DEM to 3D](https://github.com/r-barnes/DEMto3D)
 
 ## Sugested open data sources
 
-- [Earth map by USGS](rhttps://earthexplorer.usgs.gov/)
+- [Extraterrestrial planets map by USG](https://www.usgs.gov/centers/astrogeology-science-center/science/mrctr-gis-lab)
+- [Earth map by USGS](https://earthexplorer.usgs.gov/)
 - [OpenTopography](https://opentopography.org/blog/demand-3d-topographic-differencing)
 
 ## Contacts team members
