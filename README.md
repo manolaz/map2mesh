@@ -12,7 +12,9 @@ Python v3.6 with [ANACONDA](https://docs.conda.io/en/latest/miniconda.html)
 conda create --name wb python=3.6
 conda activate wb
 conda install -c conda-forge whitebox_tools
+pip install --use-feature=2020-resolver git+git://github.com/ozak/georasters.git
 conda install rasterio
+pip install earthpy
 conda install -c conda-forge gdal
 conda install -c conda-forge pdal python-pdal
 conda install -c conda-forge trimesh
