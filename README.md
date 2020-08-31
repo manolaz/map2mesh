@@ -22,9 +22,6 @@ conda install -c conda-forge laspy
 conda install -c open3d-admin open3d
 conda install -c conda-forge meshio
 pip install git+https://github.com/rougier/matplotlib-3d
-pip install PySide2
-pip install PyQt5
-pip install PyOpenGL PyOpenGL_accelerate
 conda install Pillow
 pip install -r requirements.txt
 ```
