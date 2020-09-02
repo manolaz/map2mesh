@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # Contributed by Eric E Monson
-
+import PyQt5
+# import PyQt5.QtWidgets as wg
 from PyQt5 import QtGui
-from PyQt5.QtGui import QApplication
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
 import vtk
-from vtk.qt5.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
+from vtk.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 import sys
 
 
@@ -12,17 +13,17 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(603, 553)
-        self.centralWidget = QtGui.QWidget(MainWindow)
-        self.gridlayout = QtGui.QGridLayout(self.centralWidget)
+        self.centralWidget = QWidget(MainWindow)
+        self.gridlayout = QGridLayout(self.centralWidget)
         self.vtkWidget = QVTKRenderWindowInteractor(self.centralWidget)
         self.gridlayout.addWidget(self.vtkWidget, 0, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralWidget)
 
 
-class SimpleView(QtGui.QMainWindow):
+class SimpleView(QMainWindow):
 
     def __init__(self, parent=None):
-        QtGui.QMainWindow.__init__(self, parent)
+        QMainWindow.__init__(self, parent)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.ren = vtk.vtkRenderer()

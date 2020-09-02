@@ -23,7 +23,7 @@ conda install -c open3d-admin open3d
 conda install -c conda-forge meshio
 pip install git+https://github.com/rougier/matplotlib-3d
 conda install Pillow
-conda install -c conda-forge vtk
+conda install -c conda-forge vtk PyQt5
 conda install -c conda-forge pyside2
 pip install -r requirements.txt
 ```
