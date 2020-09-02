@@ -1,13 +1,11 @@
 #!/usr/bin/env python
+# Author Tristan Nguyen @manolaz
+# Working with QT 5.1.x
 # Contributed by Eric E Monson
-import PyQt5
-# import PyQt5.QtWidgets as wg
-from PyQt5 import QtGui
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
 import vtk
 from vtk.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 import sys
-
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -21,7 +19,6 @@ class Ui_MainWindow(object):
 
 
 class SimpleView(QMainWindow):
-
     def __init__(self, parent=None):
         QMainWindow.__init__(self, parent)
         self.ui = Ui_MainWindow()
@@ -29,25 +26,20 @@ class SimpleView(QMainWindow):
         self.ren = vtk.vtkRenderer()
         self.ui.vtkWidget.GetRenderWindow().AddRenderer(self.ren)
         self.iren = self.ui.vtkWidget.GetRenderWindow().GetInteractor()
-
         # Create source
         source = vtk.vtkSphereSource()
         source.SetCenter(0, 0, 0)
         source.SetRadius(5.0)
-
         # Create a mapper
         mapper = vtk.vtkPolyDataMapper()
         mapper.SetInputConnection(source.GetOutputPort())
-
         # Create an actor
         actor = vtk.vtkActor()
         actor.SetMapper(mapper)
-
         self.ren.AddActor(actor)
 
 
 if __name__ == "__main__":
-
     app = QApplication(sys.argv)
     window = SimpleView()
     window.show()
