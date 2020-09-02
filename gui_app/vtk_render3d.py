@@ -2,6 +2,9 @@
 # Author Tristan Nguyen @manolaz
 # Working with QT 5.1.x
 # Contributed by Eric E Monson
+
+# THIS PROGRAM DRAW AN SPHERE
+
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
 import vtk
 from vtk.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
@@ -10,7 +13,7 @@ import sys
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(603, 553)
+        MainWindow.resize(800, 800)
         self.centralWidget = QWidget(MainWindow)
         self.gridlayout = QGridLayout(self.centralWidget)
         self.vtkWidget = QVTKRenderWindowInteractor(self.centralWidget)
