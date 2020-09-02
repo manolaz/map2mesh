@@ -9,8 +9,8 @@ We have to create a 3D image of terrain from an array of 2D elevation values.The
 Python v3.6 with [ANACONDA](https://docs.conda.io/en/latest/miniconda.html)
 
 ```bash
-conda create --name wb python=3.6
-conda activate wb
+conda create --name m2m python=3.6
+conda activate m2m
 conda install -c conda-forge whitebox_tools
 pip install --use-feature=2020-resolver git+git://github.com/ozak/georasters.git
 conda install rasterio
@@ -23,6 +23,7 @@ conda install -c open3d-admin open3d
 conda install -c conda-forge meshio
 pip install git+https://github.com/rougier/matplotlib-3d
 conda install Pillow
+conda install -c conda-forge vtk
 conda install -c conda-forge pyside2
 pip install -r requirements.txt
 ```
@@ -38,11 +39,12 @@ pip install -r requirements.txt
 
 ## Working file formats
 
- - .tif [GeoTIFF](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff): 
+- [VTK is an open-source software system for image processing, 3D graphics, volume rendering and visualization.](https://vtk.org/doc/nightly/html/index.html)
+- .tif [GeoTIFF](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff): 
  open with the IDE Quantum GIS [QGIS](http://www.qgis.org/)
- - .laz (Compressed LAS) , .las (LAS):
+- .laz (Compressed LAS) , .las (LAS):
  open with the IDE [CloudCompare](https://www.cloudcompare.org/)
- - .obj (Wavefront OBJ), .ply (Stanford Triangle Format):
+- .obj (Wavefront OBJ), .ply (Stanford Triangle Format):
  open with the IDE [GMSH](http://gmsh.info/), [MeshLab](http://www.meshlab.net/)
 
 ### Based the works of Dr.Richard Barnes
