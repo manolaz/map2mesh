@@ -12,6 +12,8 @@ Python v3.6 with [ANACONDA](https://docs.conda.io/en/latest/miniconda.html)
 conda create --name m2m python=3.6
 conda activate m2m
 conda install -c conda-forge whitebox_tools
+conda install --channel conda-forge geopandas
+conda install --channel conda-forge spaghetti
 pip install --use-feature=2020-resolver git+git://github.com/ozak/georasters.git
 conda install rasterio
 pip install earthpy
@@ -29,7 +31,8 @@ pip install -r requirements.txt
 ```
 
 ## Using libraries
-
+- [GeoPandas](https://geopandas.org/data_structures.html)
+- [PySAL Spagetti](http://pysal.org/notebooks/explore/spaghetti/intro.html)
 - [ matplotlib-3d](https://github.com/rougier/matplotlib-3d), [PyOpenGL](http://pyopengl.sourceforge.net/) : for 3d axis Visualization
 - [MESHIO](https://github.com/nschloe/meshio), Trimesh : for meshed 3D data
 - [GDAL](https://anaconda.org/conda-forge/gdal) for raster data
