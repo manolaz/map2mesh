@@ -38,6 +38,9 @@ pip install -r requirements.txt
 
 Run the command with Anaconda envronment enabled.
 
+Demo DATA from Earth - Moon explorer mission
+"data/DEM/MOON/ulcn2005_lpo_dd0/ulcn2005_lpo_dd0.tif"
+
 ```bash
 conda activate m2m && python main.py
 ```
