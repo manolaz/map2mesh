@@ -1,8 +1,12 @@
-# Project: 3D printable Geographic Elevation map
+# Project: document [3D printable Geographic Elevation map](https://docs.google.com/document/d/10M-8PcTnYrfr516UjfdYd96LrkGRG_HbM2IogDypXgw/edit?usp=sharing)
 
 ## DEM to Mesh conversion : Landscapes transformation to 3D sample object
 
 We have to create a 3D image of terrain from an array of 2D elevation values.The goal is to take an elevation map as input (meaning a grid with elevation data, as the usage of ones). We will generate a file that is printable by 3D printer. The output could be STL or an OBJ file, these file formats are used for 3D printing.
+
+## Raster data [DEM, DTM : GeoTIFF](https://gisgeography.com/dem-dsm-dtm-differences/)
+
+![GeoTIFF](documents/LAS_FWF_illustration_constant.png)
 
 ### Environment setup
 
