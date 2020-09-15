@@ -30,10 +30,23 @@ conda install -c conda-forge pyside2
 pip install -r requirements.txt
 ```
 
+## Execution CLI
+
+Run the command with Anaconda envronment enabled.
+
+```bash
+conda activate m2m && python main.py
+```
+
+### user tips
+
+the GeoTIFF file can be drag from File manager GUI and drop on the terminal for get the absolute FS paths exactly.
+
 ## Using libraries
+
 - [GeoPandas](https://geopandas.org/data_structures.html)
 - [PySAL Spagetti](http://pysal.org/notebooks/explore/spaghetti/intro.html)
-- [ matplotlib-3d](https://github.com/rougier/matplotlib-3d), [PyOpenGL](http://pyopengl.sourceforge.net/) : for 3d axis Visualization
+- [matplotlib-3d](https://github.com/rougier/matplotlib-3d), [PyOpenGL](http://pyopengl.sourceforge.net/) : for 3d axis Visualization
 - [MESHIO](https://github.com/nschloe/meshio), Trimesh : for meshed 3D data
 - [GDAL](https://anaconda.org/conda-forge/gdal) for raster data
 - [PDAL](https://anaconda.org/conda-forge/pdal) for points cloud data
@@ -43,12 +56,12 @@ pip install -r requirements.txt
 ## Working file formats
 
 - [VTK is an open-source software system for image processing, 3D graphics, volume rendering and visualization.](https://vtk.org/doc/nightly/html/index.html)
-- .tif [GeoTIFF](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff): 
- open with the IDE Quantum GIS [QGIS](http://www.qgis.org/)
+- .tif [GeoTIFF](https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff):
+  open with the IDE Quantum GIS [QGIS](http://www.qgis.org/)
 - .laz (Compressed LAS) , .las (LAS):
- open with the IDE [CloudCompare](https://www.cloudcompare.org/)
+  open with the IDE [CloudCompare](https://www.cloudcompare.org/)
 - .obj (Wavefront OBJ), .ply (Stanford Triangle Format):
- open with the IDE [GMSH](http://gmsh.info/), [MeshLab](http://www.meshlab.net/)
+  open with the IDE [GMSH](http://gmsh.info/), [MeshLab](http://www.meshlab.net/)
 
 ### Based the works of Dr.Richard Barnes
 
