@@ -49,16 +49,16 @@ conda activate m2m && python main.py
 
 - Sourcefile :help='Your GeoTiFF sourcefile path, relative or absolute.'
 - Quality type=float, default=1, help='The resolution of the resulting BMP. 1 will match the source resolution.'
-- Vsize', type=float, default=1, help='Height of DEM in the output in arbitrary units.'
+- Vsize, type=float, default=1, help='Height of DEM in the output in arbitrary units.'
 - Clip Max, type=float, default=CMAX, help='Clip input data to this maximum value.'
 - Clip Min, type=float, default=CMIN, help='Clip input data to this minimum value.'
-- Base', type=float, default=0, help='Add this value in arbitrary units everywhere to make a thicker base.'
-- Hsize', type=float, default=1.0, help='Width of the narrowest axis of the piece in arbitrary units.'
-- Hsep', type=float, default=0, help='Separation distance between stacked DEMs in arbitrary units.'
-- Sdep', type=float, default=0.1, help='Depth of separator between stacked DEMs.'
-- Tdep', type=float, default=0.3, help='Depth of separator tabs between stacked DEMs.'
-- Tsize', type=float, default=0.3, help='Size of tabs between stacked DEMs.'
-- Asize', type=float, default=0.75, help='Size of the anchor material on the end.'
+- Base, type=float, default=0, help='Add this value in arbitrary units everywhere to make a thicker base.'
+- Hsize, type=float, default=1.0, help='Width of the narrowest axis of the piece in arbitrary units.'
+- Hsep, type=float, default=0, help='Separation distance between stacked DEMs in arbitrary units.'
+- Sdep, type=float, default=0.1, help='Depth of separator between stacked DEMs.'
+- Tdep, type=float, default=0.3, help='Depth of separator tabs between stacked DEMs.'
+- Tsize, type=float, default=0.3, help='Size of tabs between stacked DEMs.'
+- Asize, type=float, default=0.75, help='Size of the anchor material on the end.'
 
 ### User Tips
 
