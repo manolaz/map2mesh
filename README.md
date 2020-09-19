@@ -95,6 +95,14 @@ on the project [DEM to 3D](https://github.com/r-barnes/DEMto3D)
 - [Earth map by USGS](https://earthexplorer.usgs.gov/)
 - [OpenTopography](https://opentopography.org/blog/demand-3d-topographic-differencing)
 
+## Conversion POintcloud data to Geo DEM/DTM with WhiteBox Tools
+
+the Python interface of WhiteBox was located at "map2mesh/las2dem.py".
+
+```bash
+conda activate m2m && python las2dem.py
+```
+
 ## Contacts team members
 
 Date: May 4, 2020
